@@ -7,6 +7,6 @@ import { BudgetsProvider } from "./contexts/BudgetsContext"
 ReactDOM.render(
     <BudgetsProvider>
       <App />
-    </BudgetsProvider>
+    </BudgetsProvider>,
   document.getElementById("root")
 )
